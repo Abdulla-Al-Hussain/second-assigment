@@ -1,0 +1,396 @@
+*{
+    font-family: 'Lato', sans-serif;
+ font-family: 'Open Sans', sans-serif;
+ font-family: 'work sans' sans-serif;
+}
+
+.Banner-container{
+    margin-left: 90px;
+    margin-right: 90px;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url(../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png);
+   border-radius: 16px;
+   width: 1170px;
+height: 500px;
+flex-shrink: 0;
+}
+.Banner-title{
+    text-align: center;
+    padding-top: 106px;
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+}
+
+.Banner-des{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.Banner-option{
+    margin-left: 220px;
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 100px;
+
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.Banner-option select{
+    color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+    width: 110px;
+    height: 30px;
+    flex-shrink: 0;
+}
+.Banner-field{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+        width: 110px;
+        height: 30px;
+        flex-shrink: 0;
+}
+.btn-primary{
+    color: #FFF;
+    border-radius: 8px;
+    border: none;
+background: #FF5400;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+width: 110px;
+height: 30px;
+
+}
+.tour-container{
+    margin: 20px 90px;
+    display: flex;
+    gap: 24px;
+}
+.tour-container img{
+    width: 540px;
+height: 540px;
+flex-shrink: 0;
+}
+
+.tour-title{
+    padding-bottom: 24px;
+}
+.tour-des{
+    padding-bottom: 24px;
+}
+.tour-li{
+    padding-bottom: 24px;
+}
+.choise-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choice-de{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.Maldives{
+    grid-area: Maldives;
+;
+flex-shrink: 0;
+}
+.Indo{
+    grid-area: Indo;
+
+flex-shrink: 0;
+}
+.Srilanka{
+    grid-area: Srilanka;
+
+
+}
+.America{
+    grid-area: America;
+
+flex-shrink: 0;
+}
+.kashmir{
+    grid-area: kashmir;
+    margin-right: 10px;
+
+flex-shrink: 0;
+}
+
+.BD{
+    grid-area: BD;
+flex-shrink: 0;
+}
+
+.BN{
+    grid-area: BN;
+ margin-left: 160px;
+    flex-shrink: 0;
+}
+.choice-option{
+    display: grid;
+    grid-template-areas: "Maldives Maldives Indo Indo"
+    "Srilanka America America kashmir"
+    "BD BN BN BN";
+}
+.why-we{
+    margin-top: 20px;
+}
+.why-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.why-des{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
+.why-options{
+    display: flex;
+    gap:24px;
+    margin: 10px 90px 0px 90px;
+}
+.option-title{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.option-des{
+    color: #5A5A5D;
+
+font-size: 16px;
+font-weight: 400;
+}
+.hotel{
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 16px;
+    background-color: antiquewhite;
+}
+.service{
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 16px;
+    background-color: lightblue;
+}
+.price{
+    margin-top: 10px;
+margin-left: 233px;
+margin-right: 234px;
+padding-top: 30px;
+padding-left: 10px;
+padding-bottom: 10px;
+border-radius: 16px;
+background-color: bisque;
+}
+
+.news{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 135px;
+    margin-bottom: 20px;
+}
+.news-letter{
+    background: #FFF;
+}
+.news-title{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.new-des{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.subs{
+    margin-left: 50px;
+}
+.input-c{
+    width:90%;
+    border: none;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+background: rgba(19, 19, 24, 0.05);
+}
+.dis{
+    background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 500px;
+}
+.dis-option{
+    margin-top: 30px;
+    text-align: center;
+    color: #FFF;
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+    border-radius: 16px;
+background: #FF5400;
+position: bottom right;
+}
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-need{
+    display: flex;
+    padding-left: 600px;
+}
+.footer-des{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+
+font-weight: 400;
+line-height: 26px; 
+}
+
+.sponsor{
+    padding-left: 550px;
+}
+#hr{
+    width: 80%;
+}
+.end{
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width:576px){
+    .Banner-container{
+        margin: 0px 10px 0px 10px;
+        width: 500px;
+    }
+    .Banner-title{
+        text-align: center;
+        padding-top: 10px;
+        color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    }
+    .Banner-option{
+        flex-direction: column;
+        margin-left: 200px;
+        padding: 16px;
+        gap:30px;
+    }
+    .tour-container{
+        margin: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tour-title{
+        text-align: center;
+    }
+    .tour-des{
+        text-align: center;
+    }
+    .Maldives img{
+        width: 90%;
+    }
+    
+.Indo img{
+    width: 90%;
+}
+.Srilanka img{
+    width: 90%;
+}
+.America img{
+    width: 90%;
+}
+.kashmir img{
+    width: 90%;
+}
+
+.BD img{
+   width: 90%;
+}
+
+.BN img{
+    width: 90%;
+
+}
+.BN{
+    margin-left: 0px;
+}
+
+    .choice-option{
+        display: grid;
+        grid-template-areas: 
+        "Maldives"  
+        "Indo"
+        "Srilanka"
+        "America" 
+        "kashmir"
+        "BD"
+        "BN";
+    }
+    .why-options{
+        flex-direction: column;
+    }
+    .price{
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-bottom: 10px;
+    }
+    .news{
+        flex-direction: column;
+    }
+    .dis{
+        background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 8\ \(1\).png);
+        background-repeat: no-repeat;
+        align-items: center;
+        width: 90%;
+    }
+    .dis-option{
+        text-align: center;
+        color: #FFF;
+        width: 100px;
+    height: 100px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+        border-radius: 16px;
+    background: #FF5400;
+    position: bottom right;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-need{
+        flex-direction: column;
+        padding-left: 200px;
+    }
+    .need{
+        align-items: center;
+        padding-left: 20px;
+        height: 40px;
+        width: 50px;
+    }
+    .sponsor{
+        padding-left: 170px;
+    }
+
+
+}
+
